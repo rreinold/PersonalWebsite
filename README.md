@@ -1,2 +1,2 @@
 # PersonalWebsite
-My Personal Website, includes my contact information, resume, projects, and work experiences
+My Personal Website, includes my projects, work experiences, resume, photos, and contact information.
