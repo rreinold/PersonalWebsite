@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
     <script src="//load.sumome.com/" data-sumo-site-id="bd058e14b2c128fc8bc6174dbbbb75b33ac2cbc4fe7a15c9278cea2e648d415c" async="async"></script>
+    <script src="assets/js/particles.js"></script>
 
     <title>Robert D. Reinold</title>
 
@@ -32,6 +33,7 @@
 
   <body data-spy="scroll" data-offset="0" data-target="#theMenu">
 		
+	
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
@@ -52,11 +54,12 @@
 	</nav>
 
 	<section id="home" name="home"></section>
+	<div id=particles-js></div>
 	<div id="headerwrap">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">
-					<h1>ROBERT REINOLD</h1>
+					<h1 style="color:#d6d6d6">ROBERT REINOLD</h1>
 				</div>
 			</div><!--/row -->
 		</div><!--/container -->
@@ -114,11 +117,12 @@
 				<div class='col-md-8 col-md-offset-2'>
 					<ul class="text-center">
 <br>
-Vapr Video is a new mobile video sharing platform designed to create a more engaging video sharing experience through the use of sensor fusion.
+Vapr Video uses sensor fusion to increase user engagement for video sharing platforms.
 <br><br>
- Vapr Video won 1st Place: 'Best In Show' at RAMP's re:THINK Video Hackathon in Summer 2014. 
+On iOS, I built a custom video player powered by a sensor fusion algorithm accessing seven sensors in real-time.
 <br><br>
-I gained hands-on experience with MVC design pattern, Objective-C and XCode 6 working on this project.					
+ Vapr Video won 1st Place: 'Best In Show' at RAMP's Video Hackathon in WeWork South Boston. 
+<br><br>
 					</ul>
 				</div>
 			</div><!-- centered -->
@@ -143,12 +147,9 @@ I gained hands-on experience with MVC design pattern, Objective-C and XCode 6 wo
 					<h3>Founder</h3>
 					<ul class='text-center'>
 <br>
-A car tragically running over my iPhone led to my discovery of the used iPhone market. I then took the initiative to teach myself the technical skills to repair them.
+Midway through an Electrical Engineering curriculum, I leveraged technical and business experience to launch my company, iPhone Repair New England. 
 <br><br>
-I launched my own repair service company, iPhone Repair New England at the UMass Amherst campus. My goal was to develop a business model that would lead to franchise locations across New England's college campuses. 
-<br><br>
-I became business partners with Dylan Dale, who launched the University of Connecticut branch. After graduation, I chose to part ways and focus on my software career, while my partner took his branch and turned it into the sustainable business, BuyBackHub.com. 
-	
+After significant success on UMass campus, I launched a second shop a year later at the University of Connecticut.
 <br><br>
 					</ul>
 				</div>
@@ -203,6 +204,120 @@ Using Node.js and its hardware package, we successfully created a dual 3-axis, c
 	<script src="assets/js/skrollr.min.js"></script>
 	<script src="assets/js/modernizr.js"></script>
     
+	<script>
+	particlesJS("particles-js", {
+	  "particles": {
+	    "number": {
+	      "value": 100,
+	      "density": {
+	        "enable": true,
+	        "value_area": 800
+	      }
+	    },
+	    "color": {
+	      "value": "#2D6594"
+	    },
+	    "shape": {
+	      "type": "circle",
+	      "stroke": {
+	        "width": 0,
+	        "color": "#000000"
+	      },
+	      "polygon": {
+	        "nb_sides": 5
+	      },
+	      "image": {
+	        "src": "img/github.svg",
+	        "width": 100,
+	        "height": 100
+	      }
+	    },
+	    "opacity": {
+	      "value": 0.5,
+	      "random": false,
+	      "anim": {
+	        "enable": false,
+	        "speed": 1,
+	        "opacity_min": 0.1,
+	        "sync": false
+	      }
+	    },
+	    "size": {
+	      "value": 3,
+	      "random": true,
+	      "anim": {
+	        "enable": false,
+	        "speed": 40,
+	        "size_min": 0.1,
+	        "sync": false
+	      }
+	    },
+	    "line_linked": {
+	      "enable": true,
+	      "distance": 150,
+	      "color": "#2D6594",
+	      "opacity": 0.4,
+	      "width": 1
+	    },
+	    "move": {
+	      "enable": true,
+	      "speed": 1,
+	      "direction": "none",
+	      "random": false,
+	      "straight": false,
+	      "out_mode": "out",
+	      "bounce": false,
+	      "attract": {
+	        "enable": false,
+	        "rotateX": 600,
+	        "rotateY": 1200
+	      }
+	    }
+	  },
+	  "interactivity": {
+	    "detect_on": "canvas",
+	    "events": {
+	      "onhover": {
+	        "enable": false,
+	        "mode": "grab"
+	      },
+	      "onclick": {
+	        "enable": false,
+	        "mode": "push"
+	      },
+	      "resize": true
+	    },
+	    "modes": {
+	      "grab": {
+	        "distance": 140,
+	        "line_linked": {
+	          "opacity": 1
+	        }
+	      },
+	      "bubble": {
+	        "distance": 400,
+	        "size": 40,
+	        "duration": 2,
+	        "opacity": 8,
+	        "speed": 3
+	      },
+	      "repulse": {
+	        "distance": 200,
+	        "duration": 0.4
+	      },
+	      "push": {
+	        "particles_nb": 4
+	      },
+	      "remove": {
+	        "particles_nb": 2
+	      }
+	    }
+	  },
+	  "retina_detect": true
+	});
+
+	</script>
+
 	<script type="text/javascript">
 		$(function(){
 			$.stellar({

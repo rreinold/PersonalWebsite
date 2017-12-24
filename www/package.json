@@ -1,0 +1,14 @@
+{
+  "name": "robert-reinold-site",
+  "version": "1.0.0",
+  "description": "My Personal Website, includes my projects, work experiences, resume, photos, and contact information. Optimized for mobile.",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp node_modules/particles.js/particles.js ./assets/js/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
+}
